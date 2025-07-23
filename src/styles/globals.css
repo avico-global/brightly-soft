@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #FD1146;
+  --secondary: #102035;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: var(--primary);
+    --color-secondary: var(--secondary);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
