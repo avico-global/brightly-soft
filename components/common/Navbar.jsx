@@ -26,13 +26,13 @@ export default function Navbar() {
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-baseline space-x-8">
                             <Link
-                                href="/"
+                                href="/brands"
                                 className={`text-white cursor-pointer hover:text-primary px-3 py-2 text-sm font-medium transition-colors uppercase ${router.pathname === '/brands' ? 'text-primary' : 'text-white'}`}
                             >
                                 Brands
                             </Link>
                             <Link
-                                href="/"
+                                href="/connect"
                                 className={`text-white cursor-pointer hover:text-primary px-3 py-2 text-sm font-medium transition-colors uppercase ${router.pathname === '/connect' ? 'text-primary' : 'text-white'}`}
                             >
                                 Connect

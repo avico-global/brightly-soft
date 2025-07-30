@@ -36,16 +36,6 @@ export default function Footer() {
                             </h3>
                             <div className="space-y-3">
                                 <Link
-                                    href="/audience"
-                                    className={`block text-sm transition-all duration-300 hover:translate-x-1 ${
-                                        router.pathname === '/audience' 
-                                            ? 'text-primary font-medium' 
-                                            : 'text-secondary/70 hover:text-primary'
-                                    }`}
-                                >
-                                    Audience
-                                </Link>
-                                <Link
                                     href="/brands"
                                     className={`block text-sm transition-all duration-300 hover:translate-x-1 ${
                                         router.pathname === '/brands' 

@@ -77,9 +77,8 @@ export default function Contact() {
 
   return (
     <>
-      <FullContainer className='py-12 lg:py-24 bg-secondary'>
+      {/* <FullContainer className='py-12 lg:py-24 bg-secondary'>
         <Container>
-          {/* Header Section */}
           <div className="mb-16">
             <div className="text-start mb-12">
               <Heading title="Why Partner With Us?" className="text-white mb-6" />
@@ -110,7 +109,6 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Call to Action */}
           <div className="bg-gradient-to-r from-primary to-primary/90 rounded-2xl p-8 md:p-12 text-center text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Ready to Start Your Partnership Journey?
@@ -128,7 +126,7 @@ export default function Contact() {
             </div>
           </div>
         </Container>
-      </FullContainer>
+      </FullContainer> */}
 
       <FullContainer className='py-12 lg:py-24 bg-primary'>
         <Container>
