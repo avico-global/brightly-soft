@@ -81,12 +81,12 @@ export default function Brands() {
         {
             name: 'Recipe Picks',
             image: '/st-images/brands/recipepicks.webp',
-            href: 'https://https://www.recipepicks.com/'
+            href: 'https://www.recipepicks.com/'
         },
         {
             name: 'Site Builderz',
             image: '/st-images/brands/sitebuilderz.webp',
-            href: 'https://www.sitebuilderz.com'
+            href: 'https://sitebuilderz.com/'
         },
     ]
 
