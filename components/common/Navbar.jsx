@@ -8,9 +8,15 @@ import Container from "./Container";
 
 export default function Navbar() {
     const router = useRouter();
+    const [show,setShow]=useState(false)
+    useEffect (()=>{
+        window.addEventListener("scroll",()=>{
+            window.scrollY>100?setShow(true):setShow(false)
+        })
+    })
 
     return (
-        <FullContainer className="z-50 fixed top-0 left-0 right-0 max-h-20">
+         <FullContainer className={`z-50 fixed top-0 left-0 right-0 max-h-20 transition-all duration-1000 ${show ? 'bg-secondary shadow-lg ' : ''}`}>
             <Container className="md:hidden">
                 <MobileNavbar />
             </Container>
