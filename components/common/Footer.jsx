@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import FullContainer from "./FullContainer";
 import Container from "./Container";
+import Image from "next/image";
 
 export default function Footer() {
     const router = useRouter();
@@ -19,12 +20,7 @@ export default function Footer() {
                         <div className="md:col-span-2">
                             <Link href="/" className="inline-block">
                                 <div className="flex items-center space-x-3 mb-4">
-                                    <div className="w-10 h-10 bg-gradient-to-br from-primary to-primary/80 rounded-xl flex items-center justify-center">
-                                        <span className="text-white font-bold text-lg">B</span>
-                                    </div>
-                                    <span className="text-2xl font-bold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
-                                        Brightly Soft
-                                    </span>
+                                    <Image src="/st-images/lightlogo.png" alt="Brightly Soft" width={1000} height={1000} className="w-auto h-12" />
                                 </div>
                             </Link>
                             <p className="text-secondary/70 text-sm leading-relaxed max-w-md">
